@@ -7,10 +7,11 @@ Lakka版本Lakka-Switch.aarch64-5.x-20240723-e2c1b74
 Ubuntu版本theofficialgman-ubuntu-unity-noble-5.1.2-2024-05-20
 
 【说明】
+
 （1）解压缩可直接覆盖到任何的大气层整合包，但要确认Hekate支持L4t，因为lakka和ubuntu都是独立系统，所以能否运行和大气层的版本、Switch系统的版本均无关，只和Hekate有关，确认Hekate是6.0.1/6.0.2及以后版本。
 因为这样Switch所有型号主机都能玩Lakka或Ubuntu，Joycon建议用原装的。
 
-玩ubuntu要预先在Hekate中给sd卡做8G隐藏分区，建议先分区完成后再解压缩覆盖到sd卡，建立隐藏分区后sd卡剩余分区默认fat32格式。
+玩ubuntu要预先在Hekate中给sd卡做8G或以上的隐藏分区，建议先分区完成后再解压缩覆盖到sd卡，建立隐藏分区后sd卡剩余分区默认fat32格式。
 
 （2）Hekate开机，more configs中找到新的引导
 
@@ -22,9 +23,7 @@ ubuntu-l4t：是新的ubuntu系统，兼容mariko/oled，目前新ubuntu只能�
 
 （3）Mariko想玩lakka或ubuntu必须先升级芯片固件的sdloader
 
-不管是hwfly国产芯片，还是TX原厂芯片已刷了小飞船固件，都要先升级固件的sdloader。
-
-而且每次正版系统升级后也要重新刷一次sdloader，是hwfly工具箱升级，所以免拆机，挺安全的。
+不管是hwfly国产芯片，还是TX原厂芯片已刷了小飞船固件，都要先升级固件的sdloader。而且每次正版系统升级后也要重新刷一次sdloader，是hwfly工具箱升级，所以免拆机，挺安全的。
 
 https://github.com/hwfly-nx/firmware/releases
 
